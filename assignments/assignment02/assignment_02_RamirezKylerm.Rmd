@@ -1,7 +1,7 @@
 ---
 title: "assignment_02_RamirezKyle"
 author: "Kyle Ramirez"
-date: "6/10/2021"
+date: "12/12/2021"
 output: pdf_document
 ---
 

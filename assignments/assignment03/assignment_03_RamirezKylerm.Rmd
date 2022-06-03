@@ -1,8 +1,10 @@
 ---
 title: "assignment_03_RamirezKyle"
 author: "Kyle Ramirez"
-date: "6/10/2021"
-output: pdf_document
+date: "12/19/2021"
+output:
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}

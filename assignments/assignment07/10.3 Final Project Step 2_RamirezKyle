@@ -1,0 +1,33 @@
+---
+title: "10.3 Final Step"
+author: "Kyle Ramirez"
+date: "2/20/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##10.3 Final Project Step 2
+
+#•	What do you not know how to do right now that you need to learn to import and cleanup your dataset?
+#  •	If I have an issue with not being able to clean up the data. As in that the file itself is not orderly. Has spaces in odd places, no clear headers, etc. I will have a problem with not being able to clean it up.
+
+#•	Discuss how you plan to uncover new information in the data that is not self-evident.
+  #•	What would be a nice to have is to be able to project what the housing data could be for the following year. I could find some 2022 data to try and use it as a proof to determine if my projections from 2021 can be extrapolated to 2022
+
+#•	What are different ways you could look at this data to answer the questions you want to answer?
+#  •	I would like there to be a way to maybe make some assumptions with this data about what sorts of incomes can finance/afford the cost of a house.
+
+#•	Do you plan to slice and dice the data in different ways, create new variables, or join separate data frames to create new summary information? Explain.
+  #•	What I would also like to do is show the different costs per state how income affects the ability of purchasing power for people.
+
+#•	How could you summarize your data to answer key questions?
+#  •	I would like to create a table for each state that shows the range of incomes that can afford certain price points of housing. Given that there are these municipal costs per year per person.
+
+#•	What do you not know how to do right now that you need to learn to answer your questions?
+#  •	I think I need more experience working with different types of data sets and transforming the data in different ways to get a better handle of how to use the tools within R.
+
+#•	Do you plan on incorporating any machine learning techniques to answer your research questions? Explain.
+  #•	I don’t think I am ready at this point to incorporate some machine learning techniques. This would be a bonus if I can answer all of my other questions.

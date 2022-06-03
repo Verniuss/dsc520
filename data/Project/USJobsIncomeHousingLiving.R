@@ -1,0 +1,52 @@
+# Assignment: Project
+# Name: Ramirez, Kyle
+# Date: 2022-2-12
+
+## Introduction:
+# One of the main problems we are seeing in the USA today is the cost of everything going up and dependent on the income of your job, how likely will you be to afford the median lifestyle. Which is being able to afford the growing cost of living and cost of housing. This is a loaded topic that has many socioeconomic indices that can be explored. For this project, it will focus more on the jobs and their incomes, the median housing costs per state, and the cost of living per state.
+
+## Research Questions
+# What jobs can afford the median lifestyle and higher?
+# What jobs cannot afford the median lifestyle?
+# Is there growth in income for any jobs currently not meeting the median lifestyle?
+# Is there a decline/stagnation/growth for the current jobs that are meeting the median lifestyle?
+# Depending on the state, some jobs might be more advantageous to work in that state then in others. Is there an ideal state/'s to optimize the cost efficiency for a future data science to live in?
+
+## Approach
+# So far the indices that are chosen is the cost of housing, the cost of living, and the average income for each job classification in the USA as of 2021. What I would like to do is set up a geographical map of all of the different job types. Then with a broad brush indicate what are the ideal states to live in with that job. I don't think that there is any data set that you can find since this is a loaded topic that will tell anyone how to fix the problem in the USA.
+
+## How your approach addresses (Fully or partially) the problem.
+#What can be done is shown what jobs that exist today will give someone the median lifestyle as the cost of everything goes up.
+
+## Some Packages to be using in the project
+#library(magrittr)
+#library(dplyr)
+#library(ggplot2)
+#theme_set(theme_minimal())
+
+## Set the working directory to the root of your DSC 520 directory
+setwd("/Users/Kyle/Documents/GitHub/KR/Ramirez_Kyle_DSC510/dsc520/data/Project")
+
+## Data for Cost of Housing in the USA of 2021
+## Load the `costofhousing2021.csv` to
+## citation: (n.d.). Retrieved from https://worldpopulationreview.com/state-rankings/cost-of-living-index-by-state
+costhousing <- read.csv("costofhousing2021.csv", stringsAsFactors = FALSE)
+df_costhousing <- data.frame(costhousing) 
+print(df_costhousing)
+
+## Data for Cost of living in the USA of 2021
+## Load the `costoflivingUSA2021.csv` to
+## citation: (n.d.). Retrieved from https://worldpopulationreview.com/state-rankings/cost-of-living-index-by-state
+costliving <- read.csv("costoflivingUSA2021.csv")
+df_costliving <- data.frame(costliving) 
+print(df_costliving)
+
+## Data for most job title/classifications and their prospective incomes of 2021
+## Load the `JobsIncomeUSA2021.csv` to
+## citation: United States. (2021, March 31). Retrieved from https://www.bls.gov/oes/2020/may/oes_nat.htm
+jobsincome <- read.csv("JobsIncomeUSA2021.csv")
+df_jobsincome <- data.frame(jobsincome) 
+print(df_jobsincome)
+
+## Questions for future steps:
+# What would be interesting to see is in relation to the jobs, what are the education requirements for them including cost of attendance and type of degree. This would add more of a complex dynamic that could also explore household incomes and what it would take for a family to send their children to school to obtain a job that would allow them to live this median lifestyle.
